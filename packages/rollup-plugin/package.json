@@ -1,0 +1,20 @@
+{
+  "name": "@ts-enum-virtual-options/rollup-plugin",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.1.2",
+    "@ts-enum-virtual-options/core": "workspace:*",
+    "rollup": "^4.24.0",
+    "utils": "workspace:*"
+  }
+}

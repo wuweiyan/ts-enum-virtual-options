@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "strict": false,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "plugins": [
+      {
+        "transform": "@ts-enum-virtual-options/compiler-plugin",
+        "outputFormat": "both"
+      }
+    ]
+  },
+  "compileOnSave": true
+}

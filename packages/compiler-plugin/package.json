@@ -1,0 +1,19 @@
+{
+  "name": "@ts-enum-virtual-options/compiler-plugin",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "postinstall": "ts-patch install"
+  },
+  "devDependencies": {
+    "@ts-enum-virtual-options/core": "workspace:*",
+    "ts-patch": "^3.2.1",
+    "utils": "workspace:*"
+  }
+}
