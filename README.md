@@ -26,7 +26,7 @@ export enum Test {
 ```
 ### 在tsc打包的项目中
 ```sh
-pnpm init plugin-name
+npm init plugin-name
 ```
 安装后在tsconfig.json下添加
 ```json
